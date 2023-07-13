@@ -1,0 +1,172 @@
+body{
+    /* background-image: url(../images/orange2.jpg);
+    background-size:cover; */
+background-color: white;
+    color: #f2a46f !important ;
+    font-family: 'Karla', cursive !important;
+    /* font-family: 'Italiana', cursive !important; */
+    font-size: 20px !important;;
+    font-weight: 300;
+}
+.container{
+    /* background-image: url(../images/bg2.jpg);
+    background-size:cover; */
+    /* background-color: #f88b42;  */
+    width:fit-content;
+    
+    background-color: #f2a46f;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: auto;
+    /* box-shadow:  0 .5rem 1rem rgba(black, .15); */
+    box-shadow: 0 0 10px rgb(53, 51, 51);
+    /* padding-left: 0% !important; */
+    
+}
+.container-fluid{
+    /* background-image: url(../images/bg2.jpg);
+    background-size:cover; */
+    /* background-color: #f88b42;  */
+    width:fit-content;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 20px;
+    padding: auto;
+    /* box-shadow:  0 .5rem 1rem rgba(black, .15); */
+    box-shadow: 0 0 10px rgb(53, 51, 51);
+    /* padding-left: 0% !important; */
+    
+}
+.container-xxl{
+    /* background-image: url(../images/bg2.jpg);
+    background-size:cover; */
+    /* background-color: #f88b42;  */
+    width:100% !important; 
+    height:100% !important;
+    background-color: #f2a46f;
+    margin-top: 50px;
+    /* border-radius: 20px; */
+    padding: 10px !important;
+    /* box-shadow:  0 .5rem 1rem rgba(black, .15); */
+    box-shadow: 0 0 10px rgb(107, 104, 104);
+    /* padding-left: 0% !important; */
+    
+}
+.welcome{
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 200px;
+
+}
+.ml13 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 100px;
+    font-size: .8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-weight: 500;
+  }
+  
+  .ml13 .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+.picture{
+    width: 15%;
+    margin-left: 40%;
+    box-shadow: 0 0 50px #ccc;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.aboutMe{
+    /* background-color: #fab673 !important; */
+    /* color: white !important; */
+    padding-left: 20px;
+
+}
+a, li{
+    color: #f2a46f !important;
+}
+a:hover{
+    color: #fa6a0ab4 !important ;
+}
+hr{
+    color: #fa6a0ab4 !important ; 
+}
+.links{
+
+}
+
+.skills{
+    /* background-color: #fa6a0a !important; */
+    background-image: url(../images/orange2.jpg);
+    background-size:cover;
+    height: 300px;
+    width: 101.1%;
+    box-shadow: inset  0px 11px 8px -10px rgb(31, 30, 30),
+    inset 0px -11px 8px -10px rgb(31, 30, 30);   
+    font-weight: bold;
+   
+
+}
+.btn-secondary{
+    /* background-color: #f88b42 !important;
+    border-color: #f88b42 !important; */
+
+    /* background-color: #de5b04 !important;
+    border-color: #de5b04 !important; */
+
+    background-color: #f2a46f !important;
+    border-color: #f2a46f !important;
+    width: 210px;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: white !important;
+}
+.skills:hover .btn-secondary{
+    opacity: 1.0;
+    color: white !important; 
+}
+
+.skills-items{
+    padding: 10%;
+    color: white !important; 
+    opacity: 1.0;
+}
+
+/* .list-group col-4{
+    background-color: #fab673 !important;
+    color: white !important;
+} */
+
+/* a{
+    color: white !important;
+} */
+
+.vl {
+    border-left: 1px solid  #fa6a0ab4 ;
+    height: auto;
+  }
+.project{
+
+}
+.card{
+    /* margin-top: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px; */
+    width: 400px;
+    box-shadow: 0 0 10px rgb(107, 104, 104);
+}
+.footer{
+    background-image: url(../images/orange2.jpg);
+    background-size:cover;
+    height: 300px;
+    /* width: 101.1%; */
+    box-shadow: inset  0px 11px 8px -10px rgb(31, 30, 30),
+    inset 0px -11px 8px -10px rgb(31, 30, 30);   
+    font-weight: bold;
+}
