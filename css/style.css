@@ -1,27 +1,21 @@
 body{
     /* background-image: url(../images/orange2.jpg);
     background-size:cover; */
+    margin-top: 70px !important;
 background-color: white;
     color: #f2a46f !important ;
     font-family: 'Karla', cursive !important;
     /* font-family: 'Italiana', cursive !important; */
     font-size: 20px !important;;
     font-weight: 300;
+    position: relative;
 }
-.container{
-    /* background-image: url(../images/bg2.jpg);
-    background-size:cover; */
-    /* background-color: #f88b42;  */
-    width:fit-content;
-    
-    background-color: #f2a46f;
-    margin-top: 50px;
+span{
+    color: rgb(250, 204, 152);
+    font-size: 70% !important;
+}    
+.border{
     border-radius: 20px;
-    padding: auto;
-    /* box-shadow:  0 .5rem 1rem rgba(black, .15); */
-    box-shadow: 0 0 10px rgb(53, 51, 51);
-    /* padding-left: 0% !important; */
-    
 }
 .container-fluid{
     /* background-image: url(../images/bg2.jpg);
@@ -73,7 +67,7 @@ background-color: white;
 
 .picture{
     width: 15%;
-    margin-left: 40%;
+    margin-left: 43%;
     box-shadow: 0 0 50px #ccc;
     border-radius: 50%;
     background-color: white;
@@ -150,7 +144,8 @@ hr{
     border-left: 1px solid  #fa6a0ab4 ;
     height: auto;
   }
-.project{
+.project h2{
+    color: white !important;
 
 }
 .card{
@@ -162,11 +157,31 @@ hr{
     box-shadow: 0 0 10px rgb(107, 104, 104);
 }
 .footer{
-    background-image: url(../images/orange2.jpg);
-    background-size:cover;
-    height: 300px;
+    /* background-image: url(../images/orange2.jpg);
+    background-size:cover; */
+    background-color: #af3801b4 ;
+     height: 100px;
     /* width: 101.1%; */
-    box-shadow: inset  0px 11px 8px -10px rgb(31, 30, 30),
-    inset 0px -11px 8px -10px rgb(31, 30, 30);   
+     box-shadow: inset  0px 11px 8px -10px rgb(31, 30, 30);   
     font-weight: bold;
+   
+    bottom:  0;
+    width: 100%; /* Full width */
+    z-index: 9999;
+}
+.navbar{
+    position: fixed !important;
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 9999;
+}
+.navbar:hover{
+    color: #fa6a0ab4;
+}
+p.card-title{
+    color: white;
+}
+.fa{
+    margin-top: 50px;
+    margin-left: 20px;
 }
